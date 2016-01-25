@@ -1,0 +1,75 @@
+<!DOCTYPE template>
+<ROOT title="123">
+ <widget>
+  <name></name>
+  <ClearMode>0</ClearMode>
+  <type>0</type>
+  <relate>1</relate>
+  <align>1</align>
+  <size>100</size>
+  <widget>
+   <name></name>
+   <ClearMode>0</ClearMode>
+   <type>0</type>
+   <relate>1</relate>
+   <align>2</align>
+   <size>0</size>
+   <widget>
+    <name></name>
+    <ClearMode>0</ClearMode>
+    <type>9</type>
+    <relate>1</relate>
+    <align>1</align>
+    <size>100</size>
+    <widget CBHeight="50" CBWidth="2">
+     <name></name>
+     <ClearMode>0</ClearMode>
+     <type>4</type>
+     <relate>1</relate>
+     <align>1</align>
+     <size>100</size>
+     <color>红绿3Grid</color>
+     <Abnomals/>
+     <block>800002BB</block>
+    </widget>
+   </widget>
+  </widget>
+  <widget CBHeight="16" CBWidth="6">
+   <name></name>
+   <ClearMode>0</ClearMode>
+   <type>3</type>
+   <relate>1</relate>
+   <align>1</align>
+   <size>2</size>
+   <color></color>
+   <Abnomals/>
+   <block>800110BB</block>
+   <ShowType volumeratio="1" turnratio="1" increase="1"/>
+   <TopStocks/>
+   <FocusWhenMove>0</FocusWhenMove>
+   <AssistIndex/>
+  </widget>
+  <widget circle="12">
+   <name></name>
+   <ClearMode>0</ClearMode>
+   <type>1</type>
+   <relate>1</relate>
+   <align>1</align>
+   <size>97</size>
+   <code>002001SZ</code>
+   <liners>
+    <Liner size="60">
+     <exp>DrawK(OPEN,CLOSE,HIGH,LOW)
+DrawLine(MA(OPEN,100))
+DrawLine(MA(OPEN,50))
+DrawLine(MA(OPEN,10))</exp>
+    </Liner>
+    <Liner size="20">
+     <exp>DrawHist(VOLUME)</exp>
+    </Liner>
+   </liners>
+   <YCoordAuto>1</YCoordAuto>
+   <YCoordPercent>1</YCoordPercent>
+  </widget>
+ </widget>
+</ROOT>
